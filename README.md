@@ -5,10 +5,9 @@ A **Godot Engine plugin** that adds a custom `AnimatedTextureRect` class, a `Tex
 ## Installation
 >The current version of the plugin was developed and tested in **Godot 4.7.2**, but it should work in other versions as well.
 1. Create your project in **Godot Engine** (if you haven't already).
-2. Create a subfolder named `addons` in the root of your project if you don't already have one.
-3. Download and extract the latest version from the [Releases](../../releases) tab into the `addons` subfolder.
-    - Note: You can also clone the repository instead of downloading it from the [Releases](../../releases) tab, but you will also download files that are not required for the plugin to function. For this reason, it is recommended that you only clone this repository if your goal is to contribute to the code or create a fork.
-4. Open your project in Godot Engine and navigate to `Project -> Project Settings -> Plugins`, then find and enable the `AnimatedTextureRect` plugin.
+2. Download and extract the latest version from the [Releases](../../releases) tab into your project's root folder.
+    - Note: You can also clone this repository (into your project's `addons` subfolder) instead of downloading it from the [Releases](../../releases) tab, but doing so will download files that are not required for the plugin to function. Therefore, cloning this repository is recommended only if you intend to contribute code or create a fork.
+3. Open your project in Godot Engine and navigate to `Project -> Project Settings -> Plugins`, then find and enable the `AnimatedTextureRect` plugin.
 
 ## Usage
 Documentation for all functions and properties available in this class is embedded within the plugin, so you can view it directly inside the Godot Engine.
